@@ -1,0 +1,18 @@
+Package: m6APrediction
+Title: Random‑Forest Based Prediction of m6A RNA Modification Sites
+Version: 1.0.0
+Authors@R: 
+    person(given = "Kong",
+           family = "Binchu",
+           role = c("aut", "cre"),
+           email = "Binchu.Kong23@xjtlu.edu.cn")
+Description: Predicts candidate m6A RNA modification sites using a pre‑trained random forest model.
+  This package accepts sequence‑derived and RNA‑related features and outputs m6A modification probability
+  together with binary classification status (Positive / Negative). Includes functions for single‑site
+  prediction and batch prediction for multiple candidate sites.
+Depends: R (>= 3.5.0)
+Imports:
+    randomForest
+License: MIT
+Encoding: UTF-8
+RoxygenNote: 7.3.3
